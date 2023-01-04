@@ -7,10 +7,10 @@
 프로젝트 주제 : 구인구직 사이트
 
 프로젝트 개발환경 :
-이클립스 1.8  
-jdk 1.8.0_231  
-spring boot  
-MyBatis  
-MySql  
-maven
-JSP
+- *SpringBoot*
+- *MySql*
+- *AWS*
+- *MyBatis*
+- *JSP*
+- *maven*
+- *HTML5&CSS3*
