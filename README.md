@@ -7,9 +7,10 @@
 프로젝트 주제 : 구인구직 사이트
 
 프로젝트 개발환경 :
+- *Java*
 - *SpringBoot*
 - *MySql*
-- *AWS*
+- *AWS EC2*
 - *MyBatis*
 - *JSP*
 - *maven*
