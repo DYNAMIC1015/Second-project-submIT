@@ -55,7 +55,7 @@ public class CompanyUserController {
 		String email = loginBean.getEmail();
 		log.info(email + "의 mypage in");
 
-		// 기업회원이 작성한 모든 총 게시물 수 구하기
+		// 기업회원이 작성한 총 게시물 수 구하기
 		writer = email;
 		log.info("writer:" + writer);
 		int postTotal = cus.countAllCompanyPosts(writer);
