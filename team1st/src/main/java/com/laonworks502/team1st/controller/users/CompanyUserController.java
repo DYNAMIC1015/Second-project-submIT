@@ -85,7 +85,7 @@ public class CompanyUserController {
 			if(StringUtils.isEmpty(email)){ // 빈 칸일 경우 false
 				vali=false;
 			}
-			String regex = "^[_a-z0-9-]+(.[_a-z0-9-]+)*@(?:\\w+\\.)+\\w+$";
+			String regex = "^[_a-z0-9-]+(.[_a-z0-9-]+)*@(?:\\w+\\.)+\\w+$"; // 
 			Pattern p = Pattern.compile(regex);
 			Matcher m = p.matcher(email);
 			if(m.matches()) { // email형식에 맞으면 true
