@@ -128,7 +128,7 @@ public class CompanyUserController {
 		cub.setSalt(salt);
 		String passwd = cub.getPasswd();
 
-		// 최종 비밀번호 : 입력받은passwd + salt 를 암호화하여 
+		// 최종 비밀번호 : 입력받은passwd + salt 를 암호화하여 저장
 		String lastpwd = SHA256.getEncrypt(passwd, salt);
 		cub.setPasswd(lastpwd);
 
